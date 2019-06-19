@@ -2,6 +2,14 @@
     color: #777777;
     background-color: #ffffff;
     border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#headShot {
+    height: 243px;
+    width: 200px;
+    float: left;
+    margin: 0px 20px 20px 0px;
 }
 
 header {
@@ -12,4 +20,12 @@ header {
 footer {
     color: #4aaaa5;
     background-color: #666666;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+ul {
+    display: table;   
 }
