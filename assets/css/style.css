@@ -1,18 +1,26 @@
-/* Testing CSS */
 .box {
-    display: flex;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
-  }
-  
+    width: 900px;
+    margin: auto;
+}
+
+.visible {
+    background-color: beige;
+    border: 5px solid black;
+}
   .box a {
-    width: 100px;
-    height: 100px;
-    font-size: 32px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    padding: 0px 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
 
 body {
-    background: orange url(../images/canvas-orange.jpg) repeat;
+    background: orange url(../images/sushi.png) repeat;
     margin: 0px;
     padding: 0px;
 }
@@ -39,31 +47,6 @@ body {
     margin: auto;
 }
 
-nav {
-    text-align: right;
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-    /* width: 960px; */
-    /* height: 60px; */
-    /* display: inline-block; */
-    /* padding-left: 0px;
-    list-style: none;
-    display: inline; */
-    /* float: right; */
-}
-
-.navBlock {
-    float: right;
-    display: inline-block;
-}
-
-/* nav li {
-    list-style: none;
-} */
-
-nav a {
-    font-size: 32px;
-}
-
 a:link {
     text-decoration: none;
 }
@@ -83,8 +66,8 @@ a:active {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    /* padding: 20px 0px 0px 20px;  */
-    display: inline-flex;
+    margin: 0 50% 0 0;
+    width: 300px;
 }
 
 h2 {
