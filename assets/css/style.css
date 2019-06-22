@@ -1,4 +1,4 @@
-.box {
+nav.box {
     display: inline-flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
@@ -11,7 +11,7 @@
     background-color: beige;
     border: 5px solid black;
 }
-  .box a {
+nav.box a {
     width: auto;
     height: auto;
     font-size: 16px;
@@ -35,7 +35,7 @@ body {
     line-height: 1.2em;
 }
 
-#headShot {
+img.headShot {
     height: 243px;
     width: 200px;
     float: left;
@@ -102,12 +102,12 @@ ul {
     display: table;   
 }
 
-.noTop {
+p.noTop {
     margin-top: 0px;
     padding-top: 0px;
 }
 
-.noBottom{
+pre.noBottom{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
