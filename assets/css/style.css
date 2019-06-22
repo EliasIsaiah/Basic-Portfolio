@@ -80,6 +80,11 @@ p {
     margin:0px;
 }
 
+p.clear {
+    clear: both;
+    overflow: auto;
+}
+
 header {
     color: #4aaaa5;
     background-color: #ffffff;
