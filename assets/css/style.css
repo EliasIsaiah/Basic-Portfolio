@@ -44,7 +44,7 @@ img.headShot {
     padding: 8px 20px 0px 20px;
 }
 
-#navigation {
+div.navigation {
     width: 960px;
     margin: auto;
 }
