@@ -12,6 +12,8 @@ nav.box {
     border: 5px solid black;
 }
 nav.box a {
+    position: relative;
+    left: 8%;
     width: auto;
     height: auto;
     font-size: 16px;
@@ -25,7 +27,7 @@ body {
     padding: 0px;
 }
 
-#wrapper {
+div.wrapper {
     color: #777777;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -66,7 +68,7 @@ a:active {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: 0 50% 0 0;
+    margin: 0 49% 0 0;
     width: 300px;
 }
 
@@ -107,6 +109,14 @@ ul {
     display: table;   
 }
 
+h2.paddingTop {
+    padding-top: 20px;
+}
+
+hr {
+    width: 95.5%;
+}
+
 p.noTop {
     margin-top: 0px;
     padding-top: 0px;
@@ -115,4 +125,29 @@ p.noTop {
 pre.noBottom{
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+
+div.portfolioBlock {
+    background-color: cyan;
+    border: blue 5px solid;
+    height: 70px;
+    width:  70px;
+}
+
+footer.pageFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    font-style: italic;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+footer p {
+    background-color: #666666;
+    color: white;
+    padding-top: 20px;
+    font-size: 9px;
 }
