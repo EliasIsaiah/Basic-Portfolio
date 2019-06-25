@@ -56,12 +56,14 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #4aaaa5;
 }
 
 a:hover {
     text-decoration: none;
     opacity: .65;
     background-color: #4aaaa5;
+    color: #fff;
 }
 
 a:active {
