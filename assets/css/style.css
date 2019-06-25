@@ -172,3 +172,24 @@ footer p {
     font-size: 9px;
 }
 
+div.pillow {
+    background: url("https://www.slumbercloud.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/c/i/cirrus_pillow_product_3.png") no-repeat center/100%;
+    background-position-y: 20%;
+}
+
+div.fakebook {
+    background: url("https://vignette.wikia.nocookie.net/arresteddevelopment/images/5/52/5x01_-_George-Michael_Bluth_01.jpg/revision/latest?cb=20180929110415") no-repeat center/100%;
+}
+
+div.simple {
+    background: url("https://www.slumbercloud.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/c/i/cirrus_pillow_product_3.png") no-repeat center;   
+}
+
+div.dunder {
+    background: url("https://www.slumbercloud.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/c/i/cirrus_pillow_product_3.png") no-repeat center;
+}
+
+div.artisan {
+    background: url("https://www.slumbercloud.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/c/i/cirrus_pillow_product_3.png") no-repeat center;
+}
+
