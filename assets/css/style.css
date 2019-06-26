@@ -22,7 +22,7 @@ nav.box a {
   }
 
 body {
-    background: orange url(../images/sushi.png) repeat;
+    background: orange url(../images/sushi.png) repeat fixed;
     margin: 0px;
     padding: 0px;
 }
