@@ -22,7 +22,8 @@ nav.box a {
   }
 
 body {
-    background: orange url(../images/sushi.png) repeat fixed;
+    /* background: orange url(../images/sushi.png) repeat fixed; */
+    background: orange url("https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png") repeat fixed;
     margin: 0px;
     padding: 0px;
 }
